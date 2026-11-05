@@ -1,0 +1,11 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #1f2937; background: #f3f4f6; }
+* { box-sizing: border-box; }
+body { min-width: 320px; margin: 0; }
+button { border: 0; border-radius: 8px; background: #2563eb; color: white; cursor: pointer; font: inherit; padding: .7rem 1rem; }
+button:disabled { cursor: wait; opacity: .7; }
+.app-shell { align-items: center; display: flex; justify-content: center; min-height: 100vh; padding: 1.5rem; }
+.card { background: #fff; border-radius: 16px; box-shadow: 0 8px 24px #0001; max-width: 560px; padding: 2rem; width: 100%; }
+.eyebrow { color: #2563eb; font-size: .8rem; font-weight: 700; letter-spacing: .1em; margin: 0; }
+h1 { margin: .4rem 0; }
+.health-check { margin-top: 1.5rem; }
+.health-check p { margin-bottom: 0; }
